@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Window1.xaml](./CS/InitNewRowWhenEditing/Window1.xaml) (VB: [Window1.xaml.vb](./VB/InitNewRowWhenEditing/Window1.xaml.vb))
+* **[Window1.xaml.cs](./CS/InitNewRowWhenEditing/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/InitNewRowWhenEditing/Window1.xaml.vb))**
+<!-- default file list end -->
 # How to initialize a new row when only the editor is shown 
 
 
