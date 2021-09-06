@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitNewRow_Editing", "InitNewRow_Editing\InitNewRow_Editing.csproj", "{EFC707A0-0A75-4DAE-B492-3A683D5D4A1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitNewRow_Editing", "InitNewRow_Editing\InitNewRow_Editing.Net5.csproj", "{EFC707A0-0A75-4DAE-B492-3A683D5D4A1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
