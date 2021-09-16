@@ -9,7 +9,7 @@
         <local:MainViewModel />
     </Window.DataContext>
     <Grid>
-        <dxg:GridControl x:Name="grid" AutoPopulateColumns="True" ItemsSource="{Binding Items}">
+        <dxg:GridControl x:Name="grid" AutoGenerateColumns="AddNew" ItemsSource="{Binding Items}">
             <dxg:GridControl.View>
                 <dxg:TableView x:Name="view" NewItemRowPosition="Top" >
                     <dxmvvm:Interaction.Behaviors >
