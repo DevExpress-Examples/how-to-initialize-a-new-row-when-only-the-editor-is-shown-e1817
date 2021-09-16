@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1817)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# WPF Data Grid -  How to Initialize a New Row when Only the Editor is Shown 
+# WPF Data Grid -  How to Initialize a New Row when the Editor is Shown 
 
 This example demonstrates how to initialize cells in the [New Item Row](https://docs.devexpress.com/WPF/6258/controls-and-libraries/data-grid/visual-elements/common-elements/new-item-row) with default values when a user clicks the New Item Row.
 
