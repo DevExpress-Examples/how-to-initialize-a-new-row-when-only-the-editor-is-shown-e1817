@@ -11,8 +11,8 @@ namespace InitNewRow_Editing {
             AssociatedObject.InitNewRow += OnInitNewRow;
         }
         protected override void OnDetaching() {
-            AssociatedObject.FocusedRowHandleChanged += OnFocusedRowHandleChanged;
-            AssociatedObject.InitNewRow += OnInitNewRow;
+            AssociatedObject.FocusedRowHandleChanged -= OnFocusedRowHandleChanged;
+            AssociatedObject.InitNewRow -= OnInitNewRow;
             base.OnDetaching();
         }
 
