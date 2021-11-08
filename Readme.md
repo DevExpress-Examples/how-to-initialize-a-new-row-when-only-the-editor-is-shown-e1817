@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # WPF Data Grid -  How to Initialize a New Row when the Editor is Shown 
 
-This example demonstrates how to initialize cells in the [New Item Row](https://docs.devexpress.com/WPF/6258/controls-and-libraries/data-grid/visual-elements/common-elements/new-item-row) with default values when a user clicks the New Item Row.
+This example demonstrates how to initialize cells in the [New Item Row](https://docs.devexpress.com/WPF/6258/controls-and-libraries/data-grid/visual-elements/common-elements/new-item-row) with default values when a user clicks the New Item Row. 
 
 ![image](https://user-images.githubusercontent.com/65009440/133603952-ea4d87d9-4ba3-4a9a-891b-a09c543602e7.png)
 
