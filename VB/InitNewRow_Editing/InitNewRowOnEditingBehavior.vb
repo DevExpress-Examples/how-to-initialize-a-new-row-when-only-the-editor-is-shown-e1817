@@ -1,5 +1,6 @@
 Imports DevExpress.Mvvm.UI.Interactivity
 Imports DevExpress.Xpf.Grid
+Imports System.ComponentModel
 
 Namespace InitNewRow_Editing
 
@@ -9,12 +10,12 @@ Namespace InitNewRow_Editing
         Protected Overrides Sub OnAttached()
             MyBase.OnAttached()
             AddHandler AssociatedObject.FocusedRowHandleChanged, AddressOf OnFocusedRowHandleChanged
-            AddHandler AssociatedObject.InitNewRow, AddressOf OnInitNewRow
+            AddHandler AssociatedObject.AddingNewRow, AddressOf OnAddingNewRow
         End Sub
 
         Protected Overrides Sub OnDetaching()
             RemoveHandler AssociatedObject.FocusedRowHandleChanged, AddressOf OnFocusedRowHandleChanged
-            RemoveHandler AssociatedObject.InitNewRow, AddressOf OnInitNewRow
+            RemoveHandler AssociatedObject.AddingNewRow, AddressOf OnAddingNewRow
             MyBase.OnDetaching()
         End Sub
 
@@ -28,9 +29,8 @@ Namespace InitNewRow_Editing
             End If
         End Sub
 
-        Private Sub OnInitNewRow(ByVal sender As Object, ByVal e As InitNewRowEventArgs)
-            AssociatedObject.Grid.SetCellValue(DataControlBase.NewItemRowHandle, AssociatedObject.Grid.Columns("Text"), "New Row")
-            AssociatedObject.Grid.SetCellValue(DataControlBase.NewItemRowHandle, AssociatedObject.Grid.Columns("Number"), 999997)
+        Private Sub OnAddingNewRow(ByVal sender As Object, ByVal e As AddingNewEventArgs)
+            e.NewObject = New DataItem() With {.Text = "New Row", .Number = 999997}
         End Sub
     End Class
 End Namespace
